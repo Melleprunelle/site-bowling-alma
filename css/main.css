@@ -153,25 +153,33 @@ textarea {
 
 .bowling {
     height: 100vh;
-    background-color: gray;
-    padding: 5vh;
+    padding: 10vh 10vh 20vh;
 }
-
 .block1 {
-    background-color: cadetblue;
-    height: 70%;
+    background-color: lightgrey;
+    height: 100%;
 }
 .block2 {
-    background-color: brown;
-    height: 70%;
+    background-color: lightgrey;
+    height: 100%;
 }
 .block3 {
-    background-color: cadetblue;
-    height: 70%;
+    background-color: lightgrey;
+    height: 100%;
 }
 .block4 {
-    background-color: brown;
-    height: 70%;
+    background-color: lightgrey;
+    height: 100%;
+}
+.icon1 {
+    margin: 3vh 0;
+}
+.titre1 {
+    padding: 2vh 0;
+}
+.resum {
+    padding: 1vh;
+    margin: auto 0;
 }
 
 /* ==========================================================================
