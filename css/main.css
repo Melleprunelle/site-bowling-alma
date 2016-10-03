@@ -18,6 +18,7 @@ html {
 
 body {
     font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
 }
 
 /*
@@ -181,7 +182,96 @@ h1 {
 }
 
 
+/* ==========================================================================
+   Index Section Bowling
+   ========================================================================== */
 
+.index-bowling {
+    background-color: ;
+    height: 700px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.index-bowling  img {
+    padding-top: 150px;
+}
+
+.text-index-bowling {
+    margin: 20px;
+    width: 350px;
+    height: 500px;
+    color: white;
+    background-color: #761000;
+    box-shadow: 0 0 13px #999;
+}
+
+.text-index-bowling:hover {
+    margin: 20px;
+    width: 350px;
+    height: 500px;
+    color: #761000;
+    background-color: white;
+    box-shadow: 0 0 13px #999;
+}
+
+.img-bowling1 {
+    background-image: url(../img/bowlingjpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-bowling2 {
+    background-image: url(../img/cadeau.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-bowling3 {
+    background-image: url(../img/enfant-bowling.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+}
+
+.text-index-bowling h3 {
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 1.4em;
+    text-transform: capitalize;
+}
+
+.text-index-bowling p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.9em;
+    padding: 25px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.text-index-bowling button {
+    width: 300px;
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border-radius: 0px;
+    border: 1px solid white;
+    background-color: #761000;
+    color: white;
+}
+
+.text-index-bowling a {
+    text-decoration: none;
+}
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
