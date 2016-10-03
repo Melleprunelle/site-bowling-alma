@@ -14,7 +14,11 @@
     <link rel="stylesheet" href="css/boostrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="fonts/font-awesome.css" />
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
 </head>
 
 <body>
@@ -26,22 +30,32 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">BOWLING ALMAL RENNES</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">BOWLING ALMA</a>
             </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">ACCUEIL</a></li>
-                <li><a href="#">Page 1</a></li>
-                <li><a href="#">Page 2</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">accueil</a></li>
+                    <li><a href="#">votre évenement</a></li>
+                    <li><a href="#">infos + contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a></li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <div class="container-fluid">
-    </div>
-    <!-- Add your site or application content here -->
+    <!--HEADER -->
+    <div id="change"></div>
 
 
 

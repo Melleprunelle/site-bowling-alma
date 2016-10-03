@@ -16,6 +16,10 @@ html {
     line-height: 1.4;
 }
 
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -90,12 +94,37 @@ textarea {
     border: 0px;
 }
 
-.navbar-brand {
+.navbar a {
+    text-transform: uppercase;
     color: white !important;
+    font-family: "Opens Sans", sans-serif;
+    font-size: 0.9em;
 }
 
-.active {
-    background-color: #2B0600 !important;
+.active a {
+    background-color: white !important;
+    color: #761000 !important;
+}
+
+.navbar-right i {
+    font-size: 2em;
+}
+
+.navbar-right a {
+    padding-bottom: 0px !important;
+}
+.navbar-brand {
+    font-size: 1.2em !important;
+}
+
+.navbar-header button {
+    background-color: #761000;
+    border: 0px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: white;
+    height: 2px;
 }
 
 /* ==========================================================================
