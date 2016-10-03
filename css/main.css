@@ -180,7 +180,14 @@ textarea {
     margin: 3vh 0;
 }
 .icon1 > a {
-    color: #761000 !important;
+    color: #761000;
+    border-radius: 50% !important;
+    transition: all 0.2s ease-in-out;
+    border: 10px solid #761000;
+}
+.icon1 > a:hover {
+    border-radius: 50%;
+    border: 10px solid lightseagreen;
 }
 .titre1 {
     padding: 2vh 0;
