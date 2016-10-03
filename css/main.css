@@ -7,14 +7,15 @@
  */
 
 
-html {
+/*html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-}
+}*/
 
 body {
     font-family: "Open Sans", sans-serif;
+    margin: 0;
 }
 
 /*
@@ -156,26 +157,34 @@ textarea {
     padding: 10vh 10vh 20vh;
 }
 .block1 {
-    background-color: lightgrey;
+    background-color: white;
+    color: #761000;
     height: 100%;
 }
 .block2 {
-    background-color: lightgrey;
+    background-color: white;
+    color: #761000;
     height: 100%;
 }
 .block3 {
-    background-color: lightgrey;
+    background-color: white;
+    color: #761000;
     height: 100%;
 }
 .block4 {
-    background-color: lightgrey;
+    background-color: white;
+    color: #761000;
     height: 100%;
 }
 .icon1 {
     margin: 3vh 0;
 }
+.icon1 > a {
+    color: #761000 !important;
+}
 .titre1 {
     padding: 2vh 0;
+    border-bottom: 2px solid #761000; 
 }
 .resum {
     padding: 1vh;
