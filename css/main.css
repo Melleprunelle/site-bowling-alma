@@ -272,6 +272,26 @@ h1 {
 .text-index-bowling a {
     text-decoration: none;
 }
+
+/* ==========================================================================
+   Caroussel Section Bowling
+   ========================================================================== */
+
+.carousel-caption h3 {
+    font-family: "Opens Sans", sans-serif;
+    font-size: 1.6em;
+    text-transform: inherit;
+}
+
+.carousel-caption p {
+    font-family: "Opens Sans", sans-serif;
+    font-size: 1.1em;
+}
+
+.carousel {
+    margin-bottom: 80px;
+}
+
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
