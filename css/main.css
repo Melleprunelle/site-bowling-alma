@@ -6,31 +6,6 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
-.bowling {
-    height: 100vh;
-    background-color: gray;
-    padding: 5vh;
-}
-.image1 {
-    width: 15vh !important;
-    height: 15vh !important;
-}
-.block1 {
-    background-color: cadetblue;
-    height: 70%;
-}
-.block2 {
-    background-color: brown;
-    height: 70%;
-}
-.block3 {
-    background-color: cadetblue;
-    height: 70%;
-}
-.block4 {
-    background-color: brown;
-    height: 70%;
-}
 
 html {
     color: #222;
@@ -172,7 +147,35 @@ textarea {
     padding-top: 50px;
 }
 
+/* ==========================================================================
+   Section 1 du site
+   ========================================================================== */
 
+.bowling {
+    height: 100vh;
+    background-color: gray;
+    padding: 5vh;
+}
+.image1 {
+    width: 15vh !important;
+    height: 15vh !important;
+}
+.block1 {
+    background-color: cadetblue;
+    height: 70%;
+}
+.block2 {
+    background-color: brown;
+    height: 70%;
+}
+.block3 {
+    background-color: cadetblue;
+    height: 70%;
+}
+.block4 {
+    background-color: brown;
+    height: 70%;
+}
 
 /* ==========================================================================
    Browser Upgrade Prompt
