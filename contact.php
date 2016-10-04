@@ -71,16 +71,19 @@
 
         <div class="col-md-6">
             <h3 class="titre_plan_acces">Moyen de locomotion</h3>
-            <p>En voiture : par la rocade de Rennes
-            (sortie 6a ou 6b, à l’intersection avec la route de Nantes - N137).</p>
-            
-            <p>Depuis le centre-ville : par l’avenue Henri-Fréville.</p>
-            
-            <p>En bus : Ligne 3 (Avenue des Gayeulles - Centre Alma),
-            Ligne 33 (Beaulieu Restau. U. - Piscine Bréquigny).</p>
-            
-            <p>En métro : Direction la Poterie,
-            arrêt Henri Fréville</p>
+            <div class="block_contact">
+                <h4 class="titre_locomotion">En voiture :</h4>
+                <p>Par la rocade de Rennes
+                (sortie 6a ou 6b, à l’intersection avec la route de Nantes - N137).</p>
+
+                <p>Depuis le centre-ville : par l’avenue Henri-Fréville.</p>
+
+                <h4 class="titre_locomotion">En bus :</h4>
+                <p>Ligne 3 (Avenue des Gayeulles - Centre Alma), Ligne 33 (Beaulieu Restau. U. - Piscine Bréquigny).</p>
+
+                <h4 class="titre_locomotion">En métro :</h4>
+                <p>Direction la Poterie, arrêt Henri Fréville</p>
+            </div>
         </div>
     </section>
 

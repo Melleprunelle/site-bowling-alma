@@ -484,6 +484,8 @@ h1 {
 
 .plan {
     height: 100vh;
+    color: white;
+    background-color: #222;
 }
 .titre_contact, .titre_plan_acces {
     margin-top: 10vh; 
@@ -501,8 +503,13 @@ h1 {
     color: #761000 !important;
     text-decoration: none;
 }
+.titre_locomotion {
+    text-decoration: underline;
+}
 .infos {
     height: 100vh;
+    color: white;
+    background-color: #222;
 }
 
 /* ==========================================================================
