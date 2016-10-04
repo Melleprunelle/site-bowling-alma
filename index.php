@@ -1,3 +1,8 @@
+<?php
+    $json = file_get_contents("evenements/fichier.json");
+    $json_data = json_decode($json);
+?>
+
 <!doctype html>
 <html class="no-js" lang="fr">
 
@@ -195,13 +200,13 @@
             <div class="col-md-3">
                 <div class="cuadro_intro_hover ">
                     <p>
-                        <img src="img/soiree1.jpg" class="center-block" alt="">
+                        <img src="<?php echo $json_data->url; ?>" class="center-block" alt="">
                     </p>
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
-                            <h3>Vendredi 30 septembre</h3>
-                            <p>Entrée libre et gratuite 21h : Initiation salsa "porto" 22h : Soiré salsa</p>
+                            <h3><?php echo $json_data->date; ?></h3>
+                            <p><?php echo $json_data->content; ?></p>
                             <a class=" btn btn-default" href="#"><span class="glyphicon glyphicon-plus"> INFO</span></a>
                         </div>
                     </div>
