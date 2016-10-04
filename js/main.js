@@ -1,4 +1,4 @@
-//TRANSPARENCE DE LA NAVBAR
+//animation navbar fixed (transparence)
 $(document).ready(function () {
     var scroll_start = 0;
     var startchange = $('#startchange');
@@ -7,18 +7,11 @@ $(document).ready(function () {
         $(document).scroll(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
-                $('.navbar-fixed-top').addClass('change');
-                $('.navbar-brand').addClass('change');
-                $('.liens_nav').addClass('change');
-                $('.navbar-collapse').addClass('change');
-                $('.navbar-header').addClass('change');
-            }
-            else {
-                $(".navbar-fixed-top").removeClass('change');
-                $(".navbar-brand").removeClass('change');
-                $(".liens_nav").removeClass('change');
-                $(".navbar-header").removeClass('change');
-                $('.navbar-collapse').removeClass('change');
+                $('.navbar-default').css('opacity', '0.7');
+                $('.navbar-default').css('transition', '0.5s');
+            } else {
+                $(".navbar-default").css('opacity', '1');
+                $('.navbar-default').css('transition', '0.5s');
             }
         });
     }
