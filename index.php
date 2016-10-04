@@ -1,7 +1,5 @@
 <?php
-    $json = file_get_contents("evenements/fichier.json");
-    $json_data = json_decode($json);
-
+    include 'evenements/event.php';
 ?>
 
 <!doctype html>
