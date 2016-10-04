@@ -214,7 +214,6 @@ h1 {
     background-color: white;
 }
 
-
 /* ==========================================================================
    Section 1 du site
    ========================================================================== */
@@ -225,16 +224,15 @@ h1 {
 
 .accueil {
     background-color: #222;
-    margin: 0 auto;
-    width: 1178px;
-    margin: 0 auto;
     padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .accueil-index h2 {
-  margin-top: 0px;
+    margin-top: 0px;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     text-align: center;
     color: white;
     text-transform: uppercase;
@@ -247,11 +245,7 @@ h1 {
 }
 
 .block-accueil {
-    display: inline-block;
-    vertical-align: top;
-    margin: 20px;
-    width: 350px;
-    height: 430px;
+    height: 600px;
     color: white;
     box-shadow: 0 0 13px black;
     background-color: #222;
@@ -264,9 +258,9 @@ h1 {
 .block-accueil p {
     font-size: 0.9em;
     padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
 }
 
 .time {
@@ -314,10 +308,10 @@ h1 {
 
 .bowling-index {
     background-color: #222;
+    height: 100%;
 }
 
 .img-bowling1 {
-    width: 250px;
     height: 250px;
     background-image: url(../img/bowlingjpg);
     background-position: center;
@@ -326,7 +320,6 @@ h1 {
 }
 
 .img-bowling2 {
-    width: 250px;
     height: 250px;
     background-image: url(../img/cadeau.jpg);
     background-position: center;
@@ -335,7 +328,6 @@ h1 {
 }
 
 .img-bowling3 {
-    width: 250px;
     height: 250px;
     background-image: url(../img/enfant-bowling.jpg);
     background-position: center;
@@ -344,7 +336,6 @@ h1 {
 }
 
 .section-bowling-index {
-    width: 1138px;
     margin-bottom: 70px;
     background-color: #222;
     box-shadow: 0 0 13px black;
@@ -352,7 +343,6 @@ h1 {
 }
 
 .section-bowling-index:hover {
-    width: 1138px;
     margin-bottom: 70px;
     background-color: white;
     box-shadow: 0 0 13px black;
@@ -366,19 +356,19 @@ h1 {
 }
 
 .section-bowling-index p {
-    padding-top: 20px ;
+    padding-top: 20px;
     padding-left: 0px;
     font-size: 0.9em;
+    padding-bottom: 20px;
 }
 
 .section-bowling-index button {
     color: white;
-    width: 25%;
     background-color: #222;
     border: 1px solid white;
     border-radius: 0px;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .section-bowling-index button:hover {
@@ -393,6 +383,10 @@ h1 {
  ==========================================================================
    /*Caroussel Section Bowling*/
    ========================================================================== 
+
+.carousel {
+    height: 500px;
+}
 
  ==========================================================================
    Browser Upgrade Prompt
@@ -476,6 +470,19 @@ h1 {
 
 .space {
     padding: 25px;
+}
+
+
+
+ ==========================================================================
+   /*RESPONSIVE*/
+ ========================================================================== 
+
+@media (max-width: 640px) {
+    .block-accueil {
+        color: white;
+        background-color: blue !important;
+    }
 }
 
 
@@ -646,3 +653,6 @@ h1 {
         page-break-after: avoid;
     }
 }
+
+
+
