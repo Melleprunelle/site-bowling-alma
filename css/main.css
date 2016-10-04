@@ -100,6 +100,7 @@ h1 {
     color: white;
     margin-bottom: 0px;
     margin-top: 20px;
+    text-shadow: 0px 5px 10px #000;
 }
 
 
@@ -196,12 +197,14 @@ h1 {
     margin-top: 5px;
     color: white;
     font-size: 2.5em;
+    text-shadow: 0px 3px 5px #000;
 }
 
 .header p {
     font-family: "Opens Sans", sans-serif;
     color: white;
     font-size: 1.2em;
+    text-shadow: 0px 3px 5px #000;
 }
 
 .separator-header {
@@ -235,11 +238,12 @@ h1 {
     text-align: center;
     color: white;
     text-transform: uppercase;
+    text-shadow: 0px 3px 5px #000;
 }
 
 .block-accueil:hover {
     background-color: white;
-    color: #761000;
+    color: #222;
 }
 
 .block-accueil {
@@ -304,135 +308,95 @@ h1 {
     margin-bottom: 10px;
 }
 
-
 /* ==========================================================================
    Index Section Bowling
    ========================================================================== */
 
-.index-bowling-fond {
-    background-color: #761000;    
-}
-
-.index-bowling {
-    background-color: #761000;
-    height: 700px;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.index-bowling img {
-    padding-top: 150px;
-}
-
-.text-index-bowling {
-    margin: 20px;
-    width: 350px;
-    height: 500px;
-    color: white;
-    background-color: #761000;
-    box-shadow: 0 0 13px #999;
-}
-
-.text-index-bowling:hover {
-    margin: 20px;
-    width: 350px;
-    height: 500px;
-    color: #761000;
-    background-color: white;
-    box-shadow: 0 0 13px #999;
+.bowling-index {
+    background-color: #222;
 }
 
 .img-bowling1 {
+    width: 250px;
+    height: 250px;
     background-image: url(../img/bowlingjpg);
-    height: 200px;
-    width: 100%;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .img-bowling2 {
+    width: 250px;
+    height: 250px;
     background-image: url(../img/cadeau.jpg);
-    height: 200px;
-    width: 100%;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .img-bowling3 {
+    width: 250px;
+    height: 250px;
     background-image: url(../img/enfant-bowling.jpg);
-    height: 200px;
-    width: 100%;
+    background-position: center;
     background-size: cover;
-    background-position: right;
+    background-repeat: no-repeat;
 }
 
-.text-index-bowling h3 {
-    padding-top: 25px;
-    padding-left: 25px;
-    font-size: 1.4em;
-    text-transform: capitalize;
-}
-
-.text-index-bowling p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 0.9em;
-    padding: 25px;
-    padding-top: 5px;
-    padding-bottom: 15px;
-}
-
-.text-index-bowling button {
-    width: 300px;
-    display: block;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-    border-radius: 0px;
-    border: 1px solid white;
-    background-color: #761000;
+.section-bowling-index {
+    width: 1138px;
+    margin-bottom: 70px;
+    background-color: #222;
+    box-shadow: 0 0 13px black;
     color: white;
 }
 
-.text-index-bowling a {
-    text-decoration: none;
+.section-bowling-index:hover {
+    width: 1138px;
+    margin-bottom: 70px;
+    background-color: white;
+    box-shadow: 0 0 13px black;
+    color: #222;
 }
 
+.section-bowling-index h3 {
+    text-transform: uppercase;
+    padding-left: 0px;
+    padding-top: 15px;
+}
 
-/* ==========================================================================
-   Caroussel Section Bowling
-   ========================================================================== */
+.section-bowling-index p {
+    padding-top: 20px ;
+    padding-left: 0px;
+    font-size: 0.9em;
+}
 
-.carousel-caption {
+.section-bowling-index button {
+    color: white;
+    width: 25%;
     background-color: #222;
-    opacity: 0.8;
-}
-.carousel-caption h3 {
-    font-family: "Opens Sans", sans-serif;
-    font-size: 1.6em;
-    text-transform: inherit;
-    padding-left: 60px;
-    padding-right: 60px;
+    border: 1px solid white;
+    border-radius: 0px;
+    text-transform: uppercase;
+    margin-top: 20px;
 }
 
-.carousel-caption p {
-    font-family: "Opens Sans", sans-serif;
-    font-size: 1.1em;
+.section-bowling-index button:hover {
+    color: white;
 }
 
-.carousel-inner {
-    height: ;
+.separator-index {
+    height: 1px;
+    background-color: grey;
 }
 
-.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
-    height:500px;
-}
+ ==========================================================================
+   /*Caroussel Section Bowling*/
+   ========================================================================== 
 
-/* ==========================================================================
+ ==========================================================================
    Browser Upgrade Prompt
-   ========================================================================== */
+   ========================================================================== 
 
 .browserupgrade {
     margin: 0.2em 0;
