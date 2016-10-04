@@ -114,34 +114,32 @@
         </div>
     </div>
     </section>
-
-   
-    <!--<section class="col-md-12 text-center accueil">
-        <h2>Bienvenue sur le site du Bowling de Rennes Alma</h2>
-        <div class="col-md-3 block-accueil">
-            <div class="time"></div>
-            <h3 class="titre1">Horaires</h3>
-            <div class="separator-accueil"></div>
-            <p class="resum">Pour une soirée détente, entre amis, collègues de travail ou en famille, venez profiter du Bowling de Rennes ! Nous sommes ouverts TOUS LES JOURS, à partir de 14h, sans exception! Découvrez notre salle séminaire pour vos événements privés et professionnels. (repas, location de salle pour formation, team-building, réunion, apéritif...)
-            </p>
+    
+      <!--Section bowling-->
+    <section class="bowling-index col-md-12">
+        <div class="section-bowling-index container-fluid">
+            <div class="img-bowling1 col-md-3"></div>
+            <h3 class="col-md-offset-1 col-md-8">Bowling Sportifs</h3>
+            <div class="separator-index col-md-offset-1 col-md-8"></div>
+            <p class="col-md-offset-1 col-md-8">La pratique du bowling sportif vous intéresse ? Le Bowling de Rennes Alma accueille des clubs de bowling qui s'entraînent toutes les semaines, pour faire des compétitions tout au long de l'année. Venez assister aux cours tous les mercredis à partir de 19h pour apprendre les bases du bowling.</p>
+            <a href="http://www.bowlingrennes.com/cariboost_files/R_C3_A8glement_20de_20la_20Ligue_20Bowling_20Rennes.pdf">
+                <button class="btn col-md-offset-1 col-md--8">Bowling Sportif</button>
+            </a>
         </div>
-        <div class="col-md-3 col-md-offset-1 block-accueil">
-            <div class="birthday"></div>
-            <h3 class="titre1">Anniversaire</h3>
-            <div class="separator-accueil"></div>
-            <p class="resum">En famille, entre amis ou entre collègues, Idéal pour l'anniversaire de votre enfant.
-            </p>
+        <div class="section-bowling-index container-fluid">
+            <div class="img-bowling2 col-md-3"></div>
+            <h3 class="col-md-offset-1 col-md-8">Chèques-Cadeaux ?</h3>
+            <div class="separator-index col-md-offset-1 col-md-8"></div>
+            <p class="col-md-offset-1 col-md-8">C'est bientôt l'anniversaire d'un proche, avez-vous pensé aux chèques-cadeaux ?</p>
         </div>
-        <div class="col-md-3 col-md-offset-1 block-accueil">
-            <div class="entreprise"></div>
-            <h3 class="titre1">Soirée entreprise - Soirées à thèmes</h3>
-            <div class="separator-accueil"></div>
-            <p class="resum">Chef d'entreprise, responsable de projets ou simplement preneur d'initiatives, nous trouvons des solutions pour organiser votre soirée entreprise avec parties de bowling et repas.
-            </p>
-        </div>
-    </section>-->
-
-   
+            
+        <div class="section-bowling-index container-fluid">
+            <div class="img-bowling3 col-md-3"></div>
+            <h3 class="col-md-offset-1 col-md-8">Pour les enfants</h3>
+            <div class="separator-index col-md-offset-1 col-md-8"></div>
+            <p class="col-md-offset-1 col-md-8">Toutes nos pistes sont équipées de Bumpers (barrières) pour que les enfants puissent jouer comme des grands. Des boules légères sont également là pour les enfants</p>
+            </div>
+    </section> 
 
     <!-- Carousel -->
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -157,14 +155,14 @@
                 <img src="img/bar1.jpg" alt="...">
                 <div class="carousel-caption">
                     <h3>Notre bar est ouvert dès 14h jusqu'à la fermeture de l'établissement.</h3>
-                    <p>Le bar est indépendant du bowling et billard, venez nous voir juste pour boire un verre!</p>
+                    <p>Le bar est indépendant du bowling et billard, venez nous voir juste pour boire un verre !</p>
                 </div>
             </div>
             <div class="item">
                 <img src="img/bar2.jpg" alt="...">
                 <div class="carousel-caption">
                     <h3>Vous pourrez déguster un des nos cocktails, un soda ou une bière sur les pistes ou au bar.</h3>
-                    <p>Rafraichissez-vous avec notre gamme variée de granités</p>
+                    <p>Rafraichissez-vous avec notre gamme variée de granités.</p>
                 </div>
             </div>
 
@@ -172,48 +170,11 @@
                 <img src="img/bar3.jpg" alt="...">
                 <div class="carousel-caption">
                     <h3>Si vous avez une petite faim, le Bowling de Rennes vous propose également un service des restaurations.</h3>
-                    <p>croque-monsieur, des glaces, du pop-corn et un assortiment de confiseries au distributeur.</p>
+                    <p>Croque-monsieur, des glaces, du pop-corn et un assortiment de confiseries au distributeur.</p>
                 </div>
             </div>
         </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
-
- <!--section BOWLING-->
-    <section class="index-bowling-fond">
-       <div class="index-bowling">
-        <div class="text-index-bowling">
-            <div class="img-bowling1"></div>
-            <h3>Bowling Sportifs</h3>
-            <p>La pratique du bowling sportif vous intéresse ? Le Bowling de Rennes Alma accueille des clubs de bowling qui s'entraînent toutes les semaines, pour faire des compétitions tout au long de l'année. Venez assister aux cours tous les mercredis à partir de 19h pour apprendre les bases du bowling.</p>
-            <a href="http://www.bowlingrennes.com/cariboost_files/R_C3_A8glement_20de_20la_20Ligue_20Bowling_20Rennes.pdf">
-                <button class="btn">Bowling Sportif</button>
-            </a>
-        </div>
-        <div class="text-index-bowling">
-            <div class="img-bowling2"></div>
-            <h3>Chèques-Cadeaux ?</h3>
-            <p>C'est bientôt l'anniversaire d'un proche, avez-vous pensé aux chèques-cadeaux ?</p>
-        </div>
-        <div class="text-index-bowling">
-            <div class="img-bowling3"></div>
-            <h3>Pour les enfants </h3>
-            <p>Toutes nos pistes sont équipées de Bumpers (barrières) pour que les enfants puissent jouer comme des grands. Des boules légères sont également là pour les enfants</p>
-        </div>
-        </div>
-    </section>
-
-
-
 
     <!-- Nos Soirées Hover text -->
     <div class="container">
