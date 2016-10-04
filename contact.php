@@ -59,7 +59,7 @@
     <!--Contact -->
     <section class="plan">
         <div>
-            
+            <h3>Contact</h3>
         </div>
     </section>
 
