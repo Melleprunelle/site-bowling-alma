@@ -1,5 +1,6 @@
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -19,6 +20,11 @@ body {
     box-sizing: border-box;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -37,6 +43,7 @@ body {
     text-shadow: none;
 }
 
+
 /*
  * A better looking default horizontal rule
  */
@@ -49,6 +56,7 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -65,6 +73,7 @@ video {
     vertical-align: middle;
 }
 
+
 /*
  * Remove default fieldset styles.
  */
@@ -74,6 +83,7 @@ fieldset {
     margin: 0;
     padding: 0;
 }
+
 
 /*
  * Allow only vertical resizing of textareas.
@@ -92,48 +102,69 @@ h1 {
     margin-top: 20px;
 }
 
+
 /* ==========================================================================
    Navbar du site
    ========================================================================== */
 
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    cursor: default;
+}
+
+.navbar-toggle {
+    z-index: 3;
+}
+
 .navbar {
     border-radius: 0px;
-    background-color: #761000;
-    border: 0px;
-    margin-bottom: 0px;
+    background-color: #222;
+    border: 0px solid #222;
+    box-shadow: 0 0 5px #222;
+}
+
+.navbar-left li:hover {
+    background-color: white;
+}
+
+.navbar-left a:hover {
+    color: #761000 !important;
 }
 
 .navbar a {
     text-transform: uppercase;
     color: white !important;
     font-family: "Opens Sans", sans-serif;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
-.active a {
-    background-color: white !important;
-    color: #761000 !important;
+.navbar-right {
+    margin-right: 10px;
 }
 
 .navbar-right i {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .navbar-right a {
     padding-bottom: 0px !important;
 }
+
 .navbar-brand {
     font-size: 1.2em !important;
 }
 
-.navbar-header button {
-    background-color: #761000;
-    border: 0px;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
 }
 
-.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: white;
-    height: 2px;
+.navbar-default .navbar-toggle {
+    border: 0px;
 }
 
 
@@ -154,6 +185,7 @@ h1 {
     width: 100%;
     height: 520px;
     background-position: center;
+    /*position: fixed;*/
 }
 
 .header img {
@@ -179,62 +211,110 @@ h1 {
     background-color: white;
 }
 
+
 /* ==========================================================================
    Section 1 du site
    ========================================================================== */
 
+.accueil-index {
+    background-color: #222;
+}
+
 .accueil {
-    height: 100vh;
-    padding: 10vh 10vh 20vh;
+    background-color: #222;
+    margin: 0 auto;
+    width: 1178px;
+    margin: 0 auto;
+    padding-bottom: 50px;
 }
-.block1 {
+
+.accueil-index h2 {
+  margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.block-accueil:hover {
     background-color: white;
     color: #761000;
-    height: 100%;
 }
-.block2 {
-    background-color: white;
-    color: #761000;
-    height: 100%;
+
+.block-accueil {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    width: 350px;
+    height: 430px;
+    color: white;
+    box-shadow: 0 0 13px black;
+    background-color: #222;
 }
-.block3 {
-    background-color: white;
-    color: #761000;
-    height: 100%;
+
+.block-accueil h3 {
+    text-align: center;
 }
-.block4 {
-    background-color: white;
-    color: #761000;
-    height: 100%;
+
+.block-accueil p {
+    font-size: 0.9em;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
 }
-.icon1 {
-    margin: 3vh 0;
+
+.time {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background-image: url(../img/clock.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px !important;
 }
-.icon1 > a {
-    color: #761000;
-    border-radius: 50% !important;
-    transition: all 0.2s ease-in-out;
-    /*border: 10px solid #761000;*/
+
+.birthday {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background-image: url(../img/present.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px !important;
 }
-.icon1 > a:hover {
-    border-radius: 50%;
-    /*border: 10px solid lightseagreen;*/
+
+.themes {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background-image: url(../img/light-bulb.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px !important;
 }
-.titre1 {
-    padding: 2vh 0;
-    border-bottom: 2px solid #761000; 
+
+.separator-accueil {
+    width: 20%;
+    height: 1px;
+    background-color: grey;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
-.resum {
-    padding: 1vh;
-    margin: auto 0;
-}
+
 
 /* ==========================================================================
    Index Section Bowling
    ========================================================================== */
 
+.index-bowling-fond {
+    background-color: #761000;    
+}
+
 .index-bowling {
-    background-color: ;
+    background-color: #761000;
     height: 700px;
     width: 90%;
     display: flex;
@@ -243,7 +323,7 @@ h1 {
     margin: 0 auto;
 }
 
-.index-bowling  img {
+.index-bowling img {
     padding-top: 150px;
 }
 
@@ -319,6 +399,37 @@ h1 {
 .text-index-bowling a {
     text-decoration: none;
 }
+
+
+/* ==========================================================================
+   Caroussel Section Bowling
+   ========================================================================== */
+
+.carousel-caption {
+    background-color: #222;
+    opacity: 0.8;
+}
+.carousel-caption h3 {
+    font-family: "Opens Sans", sans-serif;
+    font-size: 1.6em;
+    text-transform: inherit;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.carousel-caption p {
+    font-family: "Opens Sans", sans-serif;
+    font-size: 1.1em;
+}
+
+.carousel-inner {
+    height: ;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    height:500px;
+}
+
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -330,85 +441,84 @@ h1 {
     padding: 0.2em 0;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
 
-
-
-
-
 /* Nos soirées hover text */
 
+.cuadro_intro_hover {
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    background-color: #761000;
+}
 
-.cuadro_intro_hover{
-    	padding: 0px;
-		position: relative;
-		overflow: hidden;
-		height: 200px;
-        background-color:#761000;
-	}
-
-    .cuadro_intro_hover p{
+.cuadro_intro_hover p {
     text-align: center;
     margin-top: 20px;
-    	}
+}
 
-	.cuadro_intro_hover:hover .caption{
-		opacity: 1;
-		transform: translateY(-150px);
-		-webkit-transform:translateY(-150px);
-		-moz-transform:translateY(-150px);
-		-ms-transform:translateY(-150px);
-		-o-transform:translateY(-150px);
-	}
-	.cuadro_intro_hover img{
-		z-index: 4;
-	}
-	.cuadro_intro_hover .caption{
-		position: absolute;
-		top:150px;
-		-webkit-transition:all 0.3s ease-in-out;
-		-moz-transition:all 0.3s ease-in-out;
-		-o-transition:all 0.3s ease-in-out;
-		-ms-transition:all 0.3s ease-in-out;
-		transition:all 0.3s ease-in-out;
-		width: 100%;
-	}
-	.cuadro_intro_hover .blur{
-		background-color: rgba(0,0,0,0.7);
-		height: 300px;
-		z-index: 5;
-		position: absolute;
-		width: 100%;
-	}
-	.cuadro_intro_hover .caption-text{
-		z-index: 10;
-		color: #fff;
-		position: absolute;
-		height: 300px;
-		text-align: center;
-		top:-20px;
-		width: 100%;
-	}
+.cuadro_intro_hover:hover .caption {
+    opacity: 1;
+    transform: translateY(-150px);
+    -webkit-transform: translateY(-150px);
+    -moz-transform: translateY(-150px);
+    -ms-transform: translateY(-150px);
+    -o-transform: translateY(-150px);
+}
 
-    .caption-text h3 {
-        border-top:2px solid white;
-        border-bottom:2px solid white;
-        padding:10px;
-    }
+.cuadro_intro_hover img {
+    z-index: 4;
+}
 
-    .space {
-        padding:25px;
-    }
+.cuadro_intro_hover .caption {
+    position: absolute;
+    top: 150px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
 
+.cuadro_intro_hover .blur {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 300px;
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+}
 
+.cuadro_intro_hover .caption-text {
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    height: 300px;
+    text-align: center;
+    top: -20px;
+    width: 100%;
+}
+
+.caption-text h3 {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+.space {
+    padding: 25px;
+}
 
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 
 /*
  * Hide visually and from screen readers
@@ -417,6 +527,7 @@ h1 {
 .hidden {
     display: none !important;
 }
+
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -434,6 +545,7 @@ h1 {
     width: 1px;
 }
 
+
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
@@ -450,6 +562,7 @@ h1 {
     width: auto;
 }
 
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -457,6 +570,7 @@ h1 {
 .invisible {
     visibility: hidden;
 }
+
 
 /*
  * Clearfix: contain floats
@@ -472,13 +586,16 @@ h1 {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -491,11 +608,12 @@ h1 {
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
 
 /* ==========================================================================
    Print styles.
@@ -510,66 +628,55 @@ h1 {
     *:first-letter,
     *:first-line {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+        color: #000 !important;
+        /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
     a,
     a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
     }
-
     pre,
     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
-
     tr,
     img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3;
     }
-
     h2,
     h3 {
         page-break-after: avoid;

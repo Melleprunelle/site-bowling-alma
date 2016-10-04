@@ -1,6 +1,7 @@
 <?php
     $json = file_get_contents("evenements/fichier.json");
     $json_data = json_decode($json);
+
 ?>
 
 <!doctype html>
@@ -17,54 +18,55 @@
     <!-- Place favicon.ico in the root directory -->
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fonts/font-awesome.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
-<body>
+<body class="container-fluid">
+
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
     <!--NAVBAR DU SITE-->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">BOWLING RENNES</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">accueil</a></li>
-                    <li><a href="#">votre évenement</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">infos + contact</a></li>
-                    <li><a href="#">Tarifs</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
-                    </a></li>
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
-                    </a></li>
-                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
-                    </a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
         </div>
+        <a class="navbar-brand" href="#">BOWLING RENNES</a>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Vos évent'</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Tarifs</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#">infos & contact</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </nav>
 
     <!--HEADER -->
-    <section class="header">
+    <section class="header" id="startchange">
         <div>
-            <img class="img-responsive center-block" src="img/logo.jpg" alt="BOWLING RENNES ALMA">
+            <img class="img-responsive center-block" src="img/logo.png" alt="BOWLING RENNES ALMA">
             <div class="separator-header center-block"></div>
             <h1 class="text-center">BOWLING RENNES</h1>
             <h2 class="text-center">complexe de loisirs</h2>
@@ -72,68 +74,76 @@
             <p class="text-center"></p>
         </div>
     </section>
+    
+<!--<script>
+    function scrollBanner() {
+        var scrollPos;
+        var headerText = document.querySelector('.header');
+        scrollPos = window.scrollY;
 
-    <!--section ACCUEIL-->
-    <section class="col-md-12 text-center accueil">
-        <h2>Bienvenue sur le site du Bowling de Rennes Alma</h2>
-        <div class="col-md-3 block1">
-            <div class="icon1"><a href="#"><i class="fa fa-gamepad fa-5x" aria-hidden="true"></i></a></div>
-            <h3 class="titre1">Horaires</h3>
-            <p class="resum">Pour une soirée détente, entre amis, collègues de travail ou en famille, venez profiter du Bowling de Rennes
-                ! Nous sommes ouverts TOUS LES JOURS, à partir de 14h, sans exception! Découvrez notre salle séminaire pour
-                vos événements privés et professionnels. (repas, location de salle pour formation, team-building, réunion,
-                apéritif...)
+        if (scrollPos <= 600) {
+            headerText.style.transform = "translateY(" + (-scrollPos / 3) + "px" + ")";
+            headerText.style.opacity = 1 - (scrollPos / 600);
+        }
+    }
+    window.addEventListener('scroll', scrollBanner);
+</script>-->
+    
+     <!--section ACCUEIL-->
+    <section class="accueil-index">
+    <h2>Bienvenue sur le site du Bowling de Rennes Alma</h2>
+    <div class="accueil">
+        <div class="block-accueil">         
+            <div class="time"></div>
+            <h3>Horaires</h3>
+            <div class="separator-accueil"></div>
+            <p>Pour une soirée détente, entre amis, collègues de travail ou en famille, venez profiter du Bowling de Rennes ! Nous sommes ouverts TOUS LES JOURS, à partir de 14h, sans exception! Découvrez notre salle séminaire pour vos événements privés et professionnels. (repas, location de salle pour formation, team-building, réunion, apéritif...)
             </p>
         </div>
-        <div class="col-md-3 block2">
-            <div class="icon1"><a href="#"><i class="fa fa-gamepad fa-5x" aria-hidden="true"></i></a>
-            </div>
+        <div class="block-accueil">
+            <div class="birthday"></div>
+            <h3>Anniversaire</h3>
+            <div class="separator-accueil"></div>
+            <p>En famille, entre amis ou entre collègues, Idéal pour l'anniversaire de votre enfant.
+            </p>
+        </div>
+        <div class="block-accueil">
+           <div class="themes"></div>
+            <h3>Vos soirées</h3>
+            <div class="separator-accueil"></div>
+            <p>Chef d'entreprise, responsable de projets ou simplement preneur d'initiatives, nous trouvons des solutions pour organiser votre soirée entreprise avec parties de bowling et repas.
+            </p>
+        </div>
+    </div>
+    </section>
+
+   
+    <!--<section class="col-md-12 text-center accueil">
+        <h2>Bienvenue sur le site du Bowling de Rennes Alma</h2>
+        <div class="col-md-3 block-accueil">
+            <div class="time"></div>
+            <h3 class="titre1">Horaires</h3>
+            <div class="separator-accueil"></div>
+            <p class="resum">Pour une soirée détente, entre amis, collègues de travail ou en famille, venez profiter du Bowling de Rennes ! Nous sommes ouverts TOUS LES JOURS, à partir de 14h, sans exception! Découvrez notre salle séminaire pour vos événements privés et professionnels. (repas, location de salle pour formation, team-building, réunion, apéritif...)
+            </p>
+        </div>
+        <div class="col-md-3 col-md-offset-1 block-accueil">
+            <div class="birthday"></div>
             <h3 class="titre1">Anniversaire</h3>
+            <div class="separator-accueil"></div>
             <p class="resum">En famille, entre amis ou entre collègues, Idéal pour l'anniversaire de votre enfant.
             </p>
         </div>
-        <div class="col-md-3 block3">
-            <div class="icon1"><a href="#"><i class="fa fa-gamepad fa-5x" aria-hidden="true"></i></a>
-            </div>
-            <h3 class="titre1">Soirée entreprise</h3>
-            <p class="resum">Chef d'entreprise, responsable de projets ou simplement preneur d'initiatives, nous trouvons des solutions pour
-                organiser votre soirée entreprise avec parties de bowling et repas.
+        <div class="col-md-3 col-md-offset-1 block-accueil">
+            <div class="entreprise"></div>
+            <h3 class="titre1">Soirée entreprise - Soirées à thèmes</h3>
+            <div class="separator-accueil"></div>
+            <p class="resum">Chef d'entreprise, responsable de projets ou simplement preneur d'initiatives, nous trouvons des solutions pour organiser votre soirée entreprise avec parties de bowling et repas.
             </p>
         </div>
-        <div class="col-md-3 block4">
-            <div class="icon1"><a href="#"><i class="fa fa-gamepad fa-5x" aria-hidden="true"></i></a>
-            </div>
-            <h3 class="titre1">Soirées à thèmes</h3>
-            <p class="resum">Le Bowling de Rennes Alma organise tout au long de l'année des évènements ponctuels, tels que des soirées à thèmes
-                (tatouages éphémères, salsa, kizomba, cabaret, concours de beauté...)
-            </p>
-        </div>
-    </section>
+    </section>-->
 
-    <!--section BOWLING-->
-    <section class="index-bowling">
-        <div class="text-index-bowling">
-            <div class="img-bowling1"></div>
-            <h3>Bowling Sportifs</h3>
-            <p>La pratique du bowling sportif vous intéresse ? Le Bowling de Rennes Alma accueille des clubs de bowling qui
-                s'entraînent toutes les semaines, pour faire des compétitions tout au long de l'année. Venez assister aux
-                cours tous les mercredis à partir de 19h pour apprendre les bases du bowling.</p>
-            <a href="http://www.bowlingrennes.com/cariboost_files/R_C3_A8glement_20de_20la_20Ligue_20Bowling_20Rennes.pdf">
-                <button class="btn">Bowling Sportif</button>
-            </a>
-        </div>
-        <div class="text-index-bowling">
-            <div class="img-bowling2"></div>
-            <h3>Chèques-Cadeaux ?</h3>
-            <p>C'est bientôt l'anniversaire d'un proche, avez-vous pensé aux chèques-cadeaux ?</p>
-        </div>
-        <div class="text-index-bowling">
-            <div class="img-bowling3"></div>
-            <h3>Pour les enfants </h3>
-            <p>Toutes nos pistes sont équipées de Bumpers (barrières) pour que les enfants puissent jouer comme des grands.
-                Des boules légères sont également là pour les enfants</p>
-        </div>
-    </section>
+   
 
     <!-- Carousel -->
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -142,41 +152,31 @@
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-
         </ol>
-
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img src="img/bar1.jpg" alt="...">
                 <div class="carousel-caption">
-
+                    <h3>Notre bar est ouvert dès 14h jusqu'à la fermeture de l'établissement.</h3>
+                    <p>Le bar est indépendant du bowling et billard, venez nous voir juste pour boire un verre!</p>
                 </div>
             </div>
             <div class="item">
                 <img src="img/bar2.jpg" alt="...">
                 <div class="carousel-caption">
-
+                    <h3>Vous pourrez déguster un des nos cocktails, un soda ou une bière sur les pistes ou au bar.</h3>
+                    <p>Rafraichissez-vous avec notre gamme variée de granités</p>
                 </div>
             </div>
 
             <div class="item">
                 <img src="img/bar3.jpg" alt="...">
                 <div class="carousel-caption">
-
+                    <h3>Si vous avez une petite faim, le Bowling de Rennes vous propose également un service des restaurations.</h3>
+                    <p>croque-monsieur, des glaces, du pop-corn et un assortiment de confiseries au distributeur.</p>
                 </div>
             </div>
-
-            <div class="item">
-                <img src="img/bar4.jpg" alt="...">
-                <div class="carousel-caption">
-
-                </div>
-            </div>
-
-
         </div>
 
         <!-- Controls -->
@@ -190,6 +190,29 @@
         </a>
     </div>
 
+ <!--section BOWLING-->
+    <section class="index-bowling-fond">
+       <div class="index-bowling">
+        <div class="text-index-bowling">
+            <div class="img-bowling1"></div>
+            <h3>Bowling Sportifs</h3>
+            <p>La pratique du bowling sportif vous intéresse ? Le Bowling de Rennes Alma accueille des clubs de bowling qui s'entraînent toutes les semaines, pour faire des compétitions tout au long de l'année. Venez assister aux cours tous les mercredis à partir de 19h pour apprendre les bases du bowling.</p>
+            <a href="http://www.bowlingrennes.com/cariboost_files/R_C3_A8glement_20de_20la_20Ligue_20Bowling_20Rennes.pdf">
+                <button class="btn">Bowling Sportif</button>
+            </a>
+        </div>
+        <div class="text-index-bowling">
+            <div class="img-bowling2"></div>
+            <h3>Chèques-Cadeaux ?</h3>
+            <p>C'est bientôt l'anniversaire d'un proche, avez-vous pensé aux chèques-cadeaux ?</p>
+        </div>
+        <div class="text-index-bowling">
+            <div class="img-bowling3"></div>
+            <h3>Pour les enfants </h3>
+            <p>Toutes nos pistes sont équipées de Bumpers (barrières) pour que les enfants puissent jouer comme des grands. Des boules légères sont également là pour les enfants</p>
+        </div>
+        </div>
+    </section>
 
 
 
@@ -203,14 +226,14 @@
                         <img src="<?php echo $json_data->url; ?>" class="center-block" alt="">
                     </p>
                     <div class="caption">
-                        <div class="blur"></div>
+                    <div class="blur"></div>
                         <div class="caption-text">
                             <h3><?php echo $json_data->date; ?></h3>
                             <p><?php echo $json_data->content; ?></p>
                             <a class=" btn btn-default" href="#"><span class="glyphicon glyphicon-plus"> INFO</span></a>
                         </div>
-                    </div>
                 </div>
+            </div>
 
             </div>
             <div class="col-md-3">
@@ -322,9 +345,7 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script> 
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
 
@@ -336,8 +357,7 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
