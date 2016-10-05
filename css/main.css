@@ -564,39 +564,41 @@ footer a:hover {
     background-repeat: no-repeat;
 }
 .infominiblock:hover {
+    background-image: none;
     background-color: #E85112 !important;
+    opacity: 0.7;
 }
 .infominiblock h4 {
     margin-top: 14vh !important;
     text-decoration: none;
+    color: white;
 }
-.infminiblock h4:hover {
+.infominiblock h4:hover {
     margin-top: 14vh !important;
     text-decoration: none;
-    color: #761000;
 }
-#img1 {
+.img1 {
     background-image: url(../img/anniversaire_kids.jpg);
 }
-#img2 {
+.img2 {
     background-image: url(../img/rampebowling.jpg);
 }
-#img3 {
+.img3 {
     background-image: url(../img/piste_bowling.jpg);
 }
-#img4 {
+.img4 {
     background-image: url(../img/ramp-bowl.jpg);
 }
-#img5 {
+.img5 {
     background-image: url(../img/repas.jpg);
 }
-#img6 {
+.img6 {
     background-image: url(../img/coktails.jpg);
 }
-#img7 {
+.img7 {
     background-image: url(../img/chaussure_bowling.jpg);
 }
-#img8 {
+.img8 {
     background-image: url(../img/ligue_bowling.png);
 }
 

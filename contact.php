@@ -81,16 +81,16 @@
     <section class="col-md-12 text-center infos"> 
             <h3 class="titre_contact">Infos : <a href="http://www.bowlingrennes.com/cariboost_files/lexique_20du_20bowling.pdf">règles du bowling</a></h3>
             <div class="col-md-12">
-                <div class="infominiblock col-md-3" id="img1"><a href="http://www.bowlingrennes.com/cariboost_files/info_20anniversaire.pdf"><h4>Anniversaire enfants</h4></a></div>
-                <div class="infominiblock col-md-3" id="img2"><a href="http://www.bowlingrennes.com/cariboost_files/Anniv_201.pdf"><h4>Carton invitations Anniversaire 1</h4></a></div>
-                <div class="infominiblock col-md-3" id="img3"><a href="http://www.bowlingrennes.com/cariboost_files/Anniv_203.pdf"><h4>Carton invitations Anniversaire 2</h4></a></div>
-                <div class="infominiblock col-md-3" id="img4"><a href="http://www.bowlingrennes.com/cariboost_files/Tarifs.pdf"><h4>Tarif & horaires</h4></a></div>
+                <div class="infominiblock col-md-3 img1" id=""><a href="http://www.bowlingrennes.com/cariboost_files/info_20anniversaire.pdf"><h4>Anniversaire enfants</h4></a></div>
+                <div class="infominiblock col-md-3 img2" id=""><a href="http://www.bowlingrennes.com/cariboost_files/Anniv_201.pdf"><h4>Carton invitations Anniversaire 1</h4></a></div>
+                <div class="infominiblock col-md-3 img3" id=""><a href="http://www.bowlingrennes.com/cariboost_files/Anniv_203.pdf"><h4>Carton invitations Anniversaire 2</h4></a></div>
+                <div class="infominiblock col-md-3 img4" id=""><a href="http://www.bowlingrennes.com/cariboost_files/Tarifs.pdf"><h4>Tarif & horaires</h4></a></div>
             </div>
             <div class="col-md-12">
-                <div class="infominiblock col-md-3" id="img5"><a href="http://www.bowlingrennes.com/cariboost_files/Seminaires_20repas_202.pdf"><h4>Bowling  + repas</h4></a></div>
-                <div class="infominiblock col-md-3" id="img6"><a href="http://www.bowlingrennes.com/cariboost_files/Plaquette_20Cocktails.pdf"><h4>Coktails</h4></a></div>
-                <div class="infominiblock col-md-3" id="img7"><a href="http://www.bowlingrennes.com/cariboost_files/Plaquette_20tickets_20CE_202.pdf"><h4>Billetterie CE</h4></a></div>
-                <div class="infominiblock col-md-3" id="img8"><a href="http://www.bowlingrennes.com/cariboost_files/R_C3_A8glement_20de_20la_20Ligue_20Bowling_20Rennes.pdf"><h4>Ligue Bowling</h4></a></div>
+                <div class="infominiblock col-md-3 img5" id=""><a href="http://www.bowlingrennes.com/cariboost_files/Seminaires_20repas_202.pdf"><h4>Bowling  + repas</h4></a></div>
+                <div class="infominiblock col-md-3 img6" id=""><a href="http://www.bowlingrennes.com/cariboost_files/Plaquette_20Cocktails.pdf"><h4>Coktails</h4></a></div>
+                <div class="infominiblock col-md-3 img7" id=""><a href="http://www.bowlingrennes.com/cariboost_files/Plaquette_20tickets_20CE_202.pdf"><h4>Billetterie CE</h4></a></div>
+                <div class="infominiblock col-md-3 img8" id=""><a href="http://www.bowlingrennes.com/cariboost_files/R_C3_A8glement_20de_20la_20Ligue_20Bowling_20Rennes.pdf"><h4>Ligue Bowling</h4></a></div>
             </div>
     </section>
 
