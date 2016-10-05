@@ -18,6 +18,7 @@ body {
     font-family: "Open Sans", sans-serif;
     margin: 0;
     box-sizing: border-box;
+    background-color: #222;
 }
 
 .container-fluid {
@@ -130,11 +131,11 @@ h1 {
 }
 
 .navbar-left li:hover {
-    background-color: white;
+    background-color: #E85112;
 }
 
 .navbar-left a:hover {
-    color: #761000 !important;
+    color: white!important;
 }
 
 .navbar a {
@@ -174,10 +175,6 @@ h1 {
    ========================================================================== */
 
 .header {
-    background-color: black;
-}
-
-.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,12 +183,12 @@ h1 {
     width: 100%;
     height: 520px;
     background-position: center;
-    /*position: fixed;*/
 }
 
 .header img {
     height: 175px;
 }
+
 
 .header h2 {
     margin-top: 5px;
@@ -218,10 +215,6 @@ h1 {
    Section 1 du site
    ========================================================================== */
 
-.accueil-index {
-    background-color: #222;
-}
-
 .accueil {
     background-color: #222;
     padding-bottom: 50px;
@@ -240,8 +233,7 @@ h1 {
 }
 
 .block-accueil:hover {
-    background-color: white;
-    color: #222;
+    background-color: #E85112;
 }
 
 .block-accueil {
@@ -296,7 +288,7 @@ h1 {
 .separator-accueil {
     width: 20%;
     height: 1px;
-    background-color: grey;
+    background-color: white;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -305,11 +297,6 @@ h1 {
 /* ==========================================================================
    Index Section Bowling
    ========================================================================== */
-
-.bowling-index {
-    background-color: #222;
-    height: 100%;
-}
 
 .img-bowling1 {
     height: 250px;
@@ -344,9 +331,8 @@ h1 {
 
 .section-bowling-index:hover {
     margin-bottom: 70px;
-    background-color: white;
+    background-color: #E85112;
     box-shadow: 0 0 13px black;
-    color: #222;
 }
 
 .section-bowling-index h3 {
@@ -363,31 +349,31 @@ h1 {
 }
 
 .section-bowling-index button {
-    color: white;
-    background-color: #222;
-    border: 1px solid white;
+    color: #e85112;
+    background-color: white;
     border-radius: 0px;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
 .section-bowling-index button:hover {
-    color: white;
+    color: #E85112;
+    background-color: white;
 }
 
 .separator-index {
     height: 1px;
-    background-color: grey;
+    background-color: white;
 }
 
  ==========================================================================
    /*Caroussel Section Bowling*/
    ========================================================================== 
 
-.carousel {
-    height: 500px;
+.slide-index {
+       margin-bottom: 70px;
+    padding-bottom: 70px;
 }
-
  ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== 
@@ -407,17 +393,22 @@ h1 {
 
 /* Nos soirées hover text */
 
+.index-hover {
+    margin-top: 70px;    
+}
+
 .cuadro_intro_hover {
     padding: 0px;
     position: relative;
     overflow: hidden;
     height: 200px;
-    background-color: #761000;
+    box-shadow: 0 0 13px black;
 }
 
 .cuadro_intro_hover p {
+    display: block;
     text-align: center;
-    margin-top: 20px;
+    font-size: 0.9em;
 }
 
 .cuadro_intro_hover:hover .caption {
@@ -433,6 +424,18 @@ h1 {
     z-index: 4;
 }
 
+.caption-text a {
+    border-radius: 0px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    width: 50%;
+}
+
+.caption-text p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .cuadro_intro_hover .caption {
     position: absolute;
     top: 150px;
@@ -445,7 +448,8 @@ h1 {
 }
 
 .cuadro_intro_hover .blur {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #222;
+    opacity: 0.9;
     height: 300px;
     z-index: 5;
     position: absolute;
@@ -463,13 +467,14 @@ h1 {
 }
 
 .caption-text h3 {
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
     padding: 10px;
+    font-size: 1.5em;
 }
 
 .space {
-    padding: 25px;
+    padding-top: 25px;
 }
 
 
