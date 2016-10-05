@@ -1,16 +1,13 @@
 <!doctype html>
 <html class="no-js" lang="fr">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>BOWLING ALMA</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
@@ -20,7 +17,6 @@
 </head>
 
 <body class="container-fluid">
-
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -35,12 +31,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-
         </div>
         <a class="navbar-brand" href="#">BOWLING RENNES</a>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbar-collapse-1">
 
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
                 <li><a href="#">Accueil</a></li>
                 <li><a href="#">Vos évent'</a></li>
@@ -68,33 +63,36 @@
             <iframe scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=bowling+rennes&amp;sll=46.75984,1.738281&amp;sspn=9.378602,23.203125&amp;ie=UTF8&amp;hq=bowling&amp;hnear=Rennes,+Ille-et-Vilaine,+Bretagne&amp;ll=48.082091,-1.681323&amp;spn=0.065274,0.006295&amp;output=embed" width="450" height="350" frameborder="0"></iframe>
             </div>
         </div>
-
         <div class="col-md-6">
             <h3 class="titre_plan_acces">Moyen de locomotion</h3>
             <div class="block_contact">
                 <h4 class="titre_locomotion">En voiture :</h4>
                 <p>Par la rocade de Rennes
                 (sortie 6a ou 6b, à l’intersection avec la route de Nantes - N137).</p>
-
                 <p>Depuis le centre-ville : par l’avenue Henri-Fréville.</p>
-
                 <h4 class="titre_locomotion">En bus :</h4>
                 <p>Ligne 3 (Avenue des Gayeulles - Centre Alma), Ligne 33 (Beaulieu Restau. U. - Piscine Bréquigny).</p>
-
                 <h4 class="titre_locomotion">En métro :</h4>
                 <p>Direction la Poterie, arrêt Henri Fréville</p>
             </div>
         </div>
     </section>
 
-    <section class="col-md-12 infos">
-        <div>
+    <section class="col-md-12 text-center infos"> 
             <h3 class="titre_contact">Infos</h3>
-        </div>
+            <div class="col-md-12">
+                <div class="info_miniblock col-md-3"><h4>Anniversaire enfants</h4></div>
+                <div class="info_miniblock col-md-3"><h4>Carton invitations Anniversaire 1</h4></div>
+                <div class="info_miniblock col-md-3"><h4>Carton invitations Anniversaire 2</h4></div>
+                <div class="info_miniblock col-md-3"><h4>Tarif & horaires</h4></div>
+            </div>
+            <div class="col-md-12">
+                <div class="info_miniblock col-md-3"><h4>Bowling  + repas</h4></div>
+                <div class="info_miniblock col-md-3"><h4>Coktails</h4></div>
+                <div class="info_miniblock col-md-3"><h4>Billetterie CE</h4></div>
+                <div class="info_miniblock col-md-3"><h4>Ligue Bowling</h4></div>
+            </div>
     </section>
-
-
-
 
 
     <!--Script à garder à la fin du HTML-->
@@ -104,10 +102,10 @@
     </script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -126,6 +124,7 @@
         ga('create', 'UA-XXXXX-X', 'auto');
         ga('send', 'pageview');
     </script>
+
 </body>
 
 </html>

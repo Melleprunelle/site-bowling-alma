@@ -511,6 +511,10 @@ h1 {
     color: white;
     background-color: #222;
 }
+.info_miniblock {
+    height: 40vh;
+    background: red;
+}
 
 /* ==========================================================================
    Helper classes
