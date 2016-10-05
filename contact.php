@@ -60,7 +60,7 @@
                 <p>Pour des informations, des suggestions ou des commentaires, laissez nous votre message à l'adresse suivante:
                 <p><a href="mailto:bowlingrennes@free.fr" class="mail_contact">bowlingrennes@free.fr</a></p>
                 <p>Tel.: 02.99.50.65.53</p>
-            <iframe scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=bowling+rennes&amp;sll=46.75984,1.738281&amp;sspn=9.378602,23.203125&amp;ie=UTF8&amp;hq=bowling&amp;hnear=Rennes,+Ille-et-Vilaine,+Bretagne&amp;ll=48.082091,-1.681323&amp;spn=0.065274,0.006295&amp;output=embed" width="450" height="350" frameborder="0"></iframe>
+            <iframe scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=bowling+rennes&amp;sll=46.75984,1.738281&amp;sspn=9.378602,23.203125&amp;ie=UTF8&amp;hq=bowling&amp;hnear=Rennes,+Ille-et-Vilaine,+Bretagne&amp;ll=48.082091,-1.681323&amp;spn=0.065274,0.006295&amp;output=embed" width="450" height="300" frameborder="0"></iframe>
             </div>
         </div>
         <div class="col-md-6">

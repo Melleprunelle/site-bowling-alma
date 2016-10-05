@@ -57,7 +57,7 @@
     </nav>
 
     <!--HEADER -->
-    <section class="header" id="startchange">
+    <header id="startchange">
         <div>
             <img class="img-responsive center-block" src="img/logo.png" alt="BOWLING RENNES ALMA">
             <div class="separator-header center-block"></div>
@@ -66,7 +66,7 @@
             <p class="text-center">Bowling Rennes, 2 rue du Bosphore, 35200 Rennes / Tel. 02 99 50 65 53 - mail. bowlingrennes@free.fr</p>
             <p class="text-center"></p>
         </div>
-    </section>
+    </header>
 
     <!--section ACCUEIL-->
     <section class="accueil-index col-md-12">
@@ -168,16 +168,16 @@
         </div>
     </section>
 
- <!-- Nos Soirées Hover text -->
-    <div class="container">
+    <!-- Nos Soirées Hover text -->
+    <section class="index-hover col-md-10 col-md-offset-1">
         <div class="row space">
             <div class="col-md-3">
                 <div class="cuadro_intro_hover ">
                     <p>
-                        <img src="<?php echo $json_data->url; ?>" class="center-block" alt="">
+                         <img src="<?php echo $json_data->url; ?>" class="center-block" alt="">
                     </p>
                     <div class="caption">
-                    <div class="blur"></div>
+                        <div class="blur"></div>
                         <div class="caption-text">
                             <h3><?php echo $json_data->date; ?></h3>
                             <p><?php echo $json_data->content; ?></p>
@@ -185,7 +185,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
             </div>
             <div class="col-md-3">
@@ -273,19 +272,6 @@
     <footer class="col-md-12">
         <p>Bowling Rennes, 2 rue du Bosphore, 35200 Rennes / Tel. 02 99 50 65 53 - <a href="mailto:bowlingrennes@free.fr">mail. bowlingrennes@free.fr</a></p>
     </footer>
-
-
-
-    <!--Script à garder à la fin du HTML-->
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
-    </script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 
 
     <!--Script à garder à la fin du HTML-->
