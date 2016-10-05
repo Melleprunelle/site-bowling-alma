@@ -55,9 +55,9 @@
             <h3 class="titre_contact">Contact</h3>
             <div class="block_contact">
                 <p>Pour des informations, des suggestions ou des commentaires, laissez nous votre message à l'adresse suivante:
-                <p><a href="#" class="mail_contact">bowlingrennes@free.fr</a></p>
+                <p><a href="mailto:bowlingrennes@free.fr" class="mail_contact">bowlingrennes@free.fr</a></p>
                 <p>Tel.: 02.99.50.65.53</p>
-            <iframe scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=bowling+rennes&amp;sll=46.75984,1.738281&amp;sspn=9.378602,23.203125&amp;ie=UTF8&amp;hq=bowling&amp;hnear=Rennes,+Ille-et-Vilaine,+Bretagne&amp;ll=48.082091,-1.681323&amp;spn=0.065274,0.006295&amp;output=embed" width="450" height="350" frameborder="0"></iframe>
+            <iframe scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=bowling+rennes&amp;sll=46.75984,1.738281&amp;sspn=9.378602,23.203125&amp;ie=UTF8&amp;hq=bowling&amp;hnear=Rennes,+Ille-et-Vilaine,+Bretagne&amp;ll=48.082091,-1.681323&amp;spn=0.065274,0.006295&amp;output=embed" width="400" height="250" frameborder="0"></iframe>
             </div>
         </div>
         <div class="col-md-6">
@@ -78,18 +78,22 @@
     <section class="col-md-12 text-center infos"> 
             <h3 class="titre_contact">Infos : <a href="http://www.bowlingrennes.com/cariboost_files/lexique_20du_20bowling.pdf">règles du bowling</a></h3>
             <div class="col-md-12">
-                <div class="info_miniblock col-md-3 img1"><a href="http://www.bowlingrennes.com/cariboost_files/info_20anniversaire.pdf"><h4 class="titredescript">Anniversaire enfants</h4></a></div>
-                <div class="info_miniblock col-md-3 img2"><a href="http://www.bowlingrennes.com/cariboost_files/Anniv_201.pdf"><h4 class="titredescript">Carton invitations Anniversaire 1</h4></a></div>
-                <div class="info_miniblock col-md-3 img3"><a href="http://www.bowlingrennes.com/cariboost_files/Anniv_203.pdf"><h4 class="titredescript">Carton invitations Anniversaire 2</h4></a></div>
-                <div class="info_miniblock col-md-3 img4"><a href="http://www.bowlingrennes.com/cariboost_files/Tarifs.pdf"><h4 class="titredescript">Tarif & horaires</h4></a></div>
+                <div class="infominiblock col-md-3 img1" id=""><a href="http://www.bowlingrennes.com/cariboost_files/info_20anniversaire.pdf"><p>Anniversaire enfants</p></a></div>
+                <div class="infominiblock col-md-3 img2" id=""><a href="http://www.bowlingrennes.com/cariboost_files/Anniv_201.pdf"><p>Carton invitations Anniversaire 1</p></a></div>
+                <div class="infominiblock col-md-3 img3" id=""><a href="http://www.bowlingrennes.com/cariboost_files/Anniv_203.pdf"><p>Carton invitations Anniversaire 2</p></a></div>
+                <div class="infominiblock col-md-3 img4" id=""><a href="http://www.bowlingrennes.com/cariboost_files/Tarifs.pdf"><p>Tarif & horaires</p></a></div>
             </div>
             <div class="col-md-12">
-                <div class="info_miniblock col-md-3 img5"><a href="http://www.bowlingrennes.com/cariboost_files/Seminaires_20repas_202.pdf"><h4>Bowling  + repas</h4></a></div>
-                <div class="info_miniblock col-md-3 img6"><a href="http://www.bowlingrennes.com/cariboost_files/Plaquette_20Cocktails.pdf"><h4>Coktails</h4></a></div>
-                <div class="info_miniblock col-md-3 img7"><a href="http://www.bowlingrennes.com/cariboost_files/Plaquette_20tickets_20CE_202.pdf"><h4>Billetterie CE</h4></a></div>
-                <div class="info_miniblock col-md-3 img8"><a href="http://www.bowlingrennes.com/cariboost_files/R_C3_A8glement_20de_20la_20Ligue_20Bowling_20Rennes.pdf"><h4>Ligue Bowling</h4></a></div>
+                <div class="infominiblock col-md-3 img5" id=""><a href="http://www.bowlingrennes.com/cariboost_files/Seminaires_20repas_202.pdf"><p>Bowling  + repas</p></a></div>
+                <div class="infominiblock col-md-3 img6" id=""><a href="http://www.bowlingrennes.com/cariboost_files/Plaquette_20Cocktails.pdf"><p>Coktails</p></a></div>
+                <div class="infominiblock col-md-3 img7" id=""><a href="http://www.bowlingrennes.com/cariboost_files/Plaquette_20tickets_20CE_202.pdf"><p>Billetterie CE</p></a></div>
+                <div class="infominiblock col-md-3 img8" id=""><a href="http://www.bowlingrennes.com/cariboost_files/R_C3_A8glement_20de_20la_20Ligue_20Bowling_20Rennes.pdf"><p>Ligue Bowling</p></a></div>
             </div>
     </section>
+    
+    <footer class="col-md-12">
+        <p>Bowling Rennes, 2 rue du Bosphore, 35200 Rennes / Tel. 02 99 50 65 53 - <a href="mailto:bowlingrennes@free.fr">mail. bowlingrennes@free.fr</a></p>
+    </footer>
 
 
     <!--Script à garder à la fin du HTML-->

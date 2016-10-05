@@ -525,7 +525,9 @@ footer a:hover {
 
 .titre_contact,
 .titre_plan_acces {
-    margin-top: 10vh;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 .block_contact {
@@ -555,25 +557,45 @@ footer a:hover {
 
 .infos a {
     text-decoration: none;
-    color: #761000;
+    color: white;
+    text-transform: uppercase;
 }
 
-.info_miniblock {
+.infominiblock {
     height: 35vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 0.7;
+    padding: 0;
+}
+.infominiblock:hover {
+    background-image: none;
+    background-color: #E85112 !important;
+    opacity: 1.0;
+    transition: 0.5s;
 }
 
 .info_miniblock h4 {
     margin-top: 14vh !important;
-    color: transparent;
 }
 
-.titredescript:hover {
-    margin-top: 14vh !important;
+.infominiblock p {
+    font-size: 2.5vh;
     text-decoration: none;
-    color: #ff6633;
+    color: transparent;
+    height: 100%;
+    width: 100%;
+}
+.infominiblock p:hover {
+    border: 1px solid transparent;
+    padding: 14vh;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    transition: 1s;
 }
 
 .img1 {
@@ -608,9 +630,6 @@ footer a:hover {
     background-image: url(../img/ligue_bowling.png);
 }
 
-.info_miniblock:hover {
-    opacity: 0.5;
-}
 
 
 /* responsive */
