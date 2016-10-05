@@ -18,6 +18,7 @@ body {
     font-family: "Open Sans", sans-serif;
     margin: 0;
     box-sizing: border-box;
+    background-color: #222;
 }
 
 .container-fluid {
@@ -103,10 +104,24 @@ h1 {
     text-shadow: 0px 5px 10px #000;
 }
 
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
 
 /* ==========================================================================
-   Navbar du site
+   Author's custom styles
    ========================================================================== */
+
+
+/* Navbar du site */
 
 .navbar-brand {
     position: absolute;
@@ -124,17 +139,17 @@ h1 {
 
 .navbar {
     border-radius: 0px;
-    background-color: #222;
+    background-color: #e85112;
     border: 0px solid #222;
     box-shadow: 0 0 5px #222;
 }
 
 .navbar-left li:hover {
-    background-color: white;
+    background-color: #222;
 }
 
 .navbar-left a:hover {
-    color: #761000 !important;
+    color: white!important;
 }
 
 .navbar a {
@@ -169,13 +184,7 @@ h1 {
 }
 
 
-/* ==========================================================================
-   Header du site
-   ========================================================================== */
-
-.header {
-    background-color: black;
-}
+/* Header du site */
 
 .header {
     display: flex;
@@ -186,12 +195,12 @@ h1 {
     width: 100%;
     height: 520px;
     background-position: center;
-    /*position: fixed;*/
 }
 
 .header img {
     height: 175px;
 }
+
 
 .header h2 {
     margin-top: 5px;
@@ -215,26 +224,19 @@ h1 {
 }
 
 
-/* ==========================================================================
-   Section 1 du site
-   ========================================================================== */
-
-.accueil-index {
-    background-color: #222;
-}
+/* Section 1 du site */
 
 .accueil {
     background-color: #222;
-    margin: 0 auto;
-    width: 1178px;
-    margin: 0 auto;
-    padding-bottom: 50px;
+    margin-bottom: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .accueil-index h2 {
-  margin-top: 0px;
+    margin-top: 0px;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     text-align: center;
     color: white;
     text-transform: uppercase;
@@ -242,16 +244,11 @@ h1 {
 }
 
 .block-accueil:hover {
-    background-color: white;
-    color: #222;
+    background-color: #E85112;
 }
 
 .block-accueil {
-    display: inline-block;
-    vertical-align: top;
-    margin: 20px;
-    width: 350px;
-    height: 430px;
+    height: 600px;
     color: white;
     box-shadow: 0 0 13px black;
     background-color: #222;
@@ -264,9 +261,9 @@ h1 {
 .block-accueil p {
     font-size: 0.9em;
     padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
 }
 
 .time {
@@ -302,22 +299,16 @@ h1 {
 .separator-accueil {
     width: 20%;
     height: 1px;
-    background-color: grey;
+    background-color: white;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-/* ==========================================================================
-   Index Section Bowling
-   ========================================================================== */
 
-.bowling-index {
-    background-color: #222;
-}
+/*Index Section Bowling*/
 
 .img-bowling1 {
-    width: 250px;
     height: 250px;
     background-image: url(../img/bowlingjpg);
     background-position: center;
@@ -326,7 +317,6 @@ h1 {
 }
 
 .img-bowling2 {
-    width: 250px;
     height: 250px;
     background-image: url(../img/cadeau.jpg);
     background-position: center;
@@ -335,7 +325,6 @@ h1 {
 }
 
 .img-bowling3 {
-    width: 250px;
     height: 250px;
     background-image: url(../img/enfant-bowling.jpg);
     background-position: center;
@@ -344,7 +333,6 @@ h1 {
 }
 
 .section-bowling-index {
-    width: 1138px;
     margin-bottom: 70px;
     background-color: #222;
     box-shadow: 0 0 13px black;
@@ -352,11 +340,9 @@ h1 {
 }
 
 .section-bowling-index:hover {
-    width: 1138px;
     margin-bottom: 70px;
-    background-color: white;
+    background-color: #E85112;
     box-shadow: 0 0 13px black;
-    color: #222;
 }
 
 .section-bowling-index h3 {
@@ -366,64 +352,75 @@ h1 {
 }
 
 .section-bowling-index p {
-    padding-top: 20px ;
+    padding-top: 20px;
     padding-left: 0px;
     font-size: 0.9em;
+    padding-bottom: 20px;
 }
 
 .section-bowling-index button {
-    color: white;
-    width: 25%;
-    background-color: #222;
-    border: 1px solid white;
+    color: #e85112;
+    background-color: white;
     border-radius: 0px;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .section-bowling-index button:hover {
-    color: white;
+    color: #E85112;
+    background-color: white;
 }
 
 .separator-index {
     height: 1px;
-    background-color: grey;
-}
-
-/* ==========================================================================
-   Caroussel Section Bowling
-   ========================================================================== 
-
- ==========================================================================
-   Browser Upgrade Prompt
-   ==========================================================================  */
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+    background-color: white;
 }
 
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/*Caroussel Section Bowling*/
+
+.slide-index {
+       margin-bottom: 30px;
+}
+
+.carousel-caption {
+    background-color: #e85112;
+    opacity: 0.8;
+}
+
+.carousel-caption h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.carousel-caption p {
+    font-size: 1.1em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 
 /* Nos soirées hover text */
 
+.index-hover {
+    margin-bottom: 70px;
+}
+
 .cuadro_intro_hover {
+    margin-top: 40px;
     padding: 0px;
     position: relative;
     overflow: hidden;
     height: 200px;
-    background-color: #761000;
+    box-shadow: 0 0 13px black;
 }
 
 .cuadro_intro_hover p {
+    display: block;
     text-align: center;
-    margin-top: 20px;
+    font-size: 0.9em;
 }
 
 .cuadro_intro_hover:hover .caption {
@@ -439,6 +436,18 @@ h1 {
     z-index: 4;
 }
 
+.caption-text a {
+    border-radius: 0px;
+    border: 0px;
+    background-color: #e85112;
+    color: white;
+    width: 50%;
+}
+
+.caption-text p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .cuadro_intro_hover .caption {
     position: absolute;
     top: 150px;
@@ -451,7 +460,8 @@ h1 {
 }
 
 .cuadro_intro_hover .blur {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #222;
+    opacity: 0.9;
     height: 300px;
     z-index: 5;
     position: absolute;
@@ -469,13 +479,45 @@ h1 {
 }
 
 .caption-text h3 {
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
     padding: 10px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    line-height: 25px;
 }
 
-.space {
-    padding: 25px;
+
+/* footer */
+
+footer {
+    height: 50px;
+    background-color: #e85112;
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ==========================================================================
+   RESPONSIVE
+ ========================================================================== */
+
+@media (max-width: 640px) {
+    .block-accueil {
+        color: white;
+        background-color: blue !important;
+    }
 }
 
 /* ==========================================================================
@@ -726,3 +768,6 @@ h1 {
         page-break-after: avoid;
     }
 }
+
+
+
