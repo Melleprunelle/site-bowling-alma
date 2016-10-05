@@ -22,8 +22,8 @@
         <![endif]-->
 
     <!--NAVBAR DU SITE-->
+     <!--NAVBAR DU SITE-->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -32,9 +32,7 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <a class="navbar-brand" href="#">BOWLING RENNES</a>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-
+        <a class="navbar-brand" href="index.html">BOWLING RENNES</a>
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
                 <li><a href="index.html">Accueil</a></li>
@@ -43,13 +41,12 @@
                 <li><a href="#">Tarifs</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                <li><a href="#">infos & contact</a></li>
+                <li><a href="https://www.facebook.com/bowling.alma.loisirs/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.bowlingrennes.com%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=BowlingRennes&tw_p=followbutton"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/bowlingalmaloisirs/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="contact.php">infos & contact</a></li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </nav>
 
     <!--Contact -->
