@@ -58,7 +58,7 @@
             <h3 class="titre_contact">Contact</h3>
             <div class="block_contact">
                 <p>Pour des informations, des suggestions ou des commentaires, laissez nous votre message à l'adresse suivante:
-                <p><a href="#" class="mail_contact">bowlingrennes@free.fr</a></p>
+                <p><a href="mailto:bowlingrennes@free.fr" class="mail_contact">bowlingrennes@free.fr</a></p>
                 <p>Tel.: 02.99.50.65.53</p>
             <iframe scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=bowling+rennes&amp;sll=46.75984,1.738281&amp;sspn=9.378602,23.203125&amp;ie=UTF8&amp;hq=bowling&amp;hnear=Rennes,+Ille-et-Vilaine,+Bretagne&amp;ll=48.082091,-1.681323&amp;spn=0.065274,0.006295&amp;output=embed" width="450" height="350" frameborder="0"></iframe>
             </div>
@@ -81,16 +81,16 @@
     <section class="col-md-12 text-center infos"> 
             <h3 class="titre_contact">Infos : <a href="http://www.bowlingrennes.com/cariboost_files/lexique_20du_20bowling.pdf">règles du bowling</a></h3>
             <div class="col-md-12">
-                <div class="info_miniblock col-md-3 img1"><a href="http://www.bowlingrennes.com/cariboost_files/info_20anniversaire.pdf"><h4 class="titredescript">Anniversaire enfants</h4></a></div>
-                <div class="info_miniblock col-md-3 img2"><a href="http://www.bowlingrennes.com/cariboost_files/Anniv_201.pdf"><h4 class="titredescript">Carton invitations Anniversaire 1</h4></a></div>
-                <div class="info_miniblock col-md-3 img3"><a href="http://www.bowlingrennes.com/cariboost_files/Anniv_203.pdf"><h4 class="titredescript">Carton invitations Anniversaire 2</h4></a></div>
-                <div class="info_miniblock col-md-3 img4"><a href="http://www.bowlingrennes.com/cariboost_files/Tarifs.pdf"><h4 class="titredescript">Tarif & horaires</h4></a></div>
+                <div class="infominiblock col-md-3" id="img1"><a href="http://www.bowlingrennes.com/cariboost_files/info_20anniversaire.pdf"><h4>Anniversaire enfants</h4></a></div>
+                <div class="infominiblock col-md-3" id="img2"><a href="http://www.bowlingrennes.com/cariboost_files/Anniv_201.pdf"><h4>Carton invitations Anniversaire 1</h4></a></div>
+                <div class="infominiblock col-md-3" id="img3"><a href="http://www.bowlingrennes.com/cariboost_files/Anniv_203.pdf"><h4>Carton invitations Anniversaire 2</h4></a></div>
+                <div class="infominiblock col-md-3" id="img4"><a href="http://www.bowlingrennes.com/cariboost_files/Tarifs.pdf"><h4>Tarif & horaires</h4></a></div>
             </div>
             <div class="col-md-12">
-                <div class="info_miniblock col-md-3 img5"><a href="http://www.bowlingrennes.com/cariboost_files/Seminaires_20repas_202.pdf"><h4>Bowling  + repas</h4></a></div>
-                <div class="info_miniblock col-md-3 img6"><a href="http://www.bowlingrennes.com/cariboost_files/Plaquette_20Cocktails.pdf"><h4>Coktails</h4></a></div>
-                <div class="info_miniblock col-md-3 img7"><a href="http://www.bowlingrennes.com/cariboost_files/Plaquette_20tickets_20CE_202.pdf"><h4>Billetterie CE</h4></a></div>
-                <div class="info_miniblock col-md-3 img8"><a href="http://www.bowlingrennes.com/cariboost_files/R_C3_A8glement_20de_20la_20Ligue_20Bowling_20Rennes.pdf"><h4>Ligue Bowling</h4></a></div>
+                <div class="infominiblock col-md-3" id="img5"><a href="http://www.bowlingrennes.com/cariboost_files/Seminaires_20repas_202.pdf"><h4>Bowling  + repas</h4></a></div>
+                <div class="infominiblock col-md-3" id="img6"><a href="http://www.bowlingrennes.com/cariboost_files/Plaquette_20Cocktails.pdf"><h4>Coktails</h4></a></div>
+                <div class="infominiblock col-md-3" id="img7"><a href="http://www.bowlingrennes.com/cariboost_files/Plaquette_20tickets_20CE_202.pdf"><h4>Billetterie CE</h4></a></div>
+                <div class="infominiblock col-md-3" id="img8"><a href="http://www.bowlingrennes.com/cariboost_files/R_C3_A8glement_20de_20la_20Ligue_20Bowling_20Rennes.pdf"><h4>Ligue Bowling</h4></a></div>
             </div>
     </section>
 

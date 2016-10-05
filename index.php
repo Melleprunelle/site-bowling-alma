@@ -183,6 +183,7 @@
                             <p><?php echo $json_data->content; ?></p>
                             <a class=" btn btn-default" href="#"><span class="glyphicon glyphicon-plus"> INFO</span></a>
                         </div>
+                    </div>
                 </div>
             </div>
 
